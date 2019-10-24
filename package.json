@@ -4,7 +4,7 @@
   "description": "Configuration and scripts for react apps.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ghaynes1292/react-scripts-replacement.git"
+    "url": "git+https://github.com/ghaynes1292/react-scripts-replacement.git"
   },
   "license": "MIT",
   "engines": {
@@ -84,7 +84,8 @@
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "3.2.1",
     "webpack-manifest-plugin": "2.1.1",
-    "workbox-webpack-plugin": "4.3.1"
+    "workbox-webpack-plugin": "4.3.1",
+    "fsevents": "2.0.7"
   },
   "devDependencies": {
     "react": "^16.8.4",
@@ -104,5 +105,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://github.com/ghaynes1292/react-scripts-replacement#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-scripts",
+    "react",
+    "configuration"
+  ],
+  "author": "Gavin Haynes"
 }
